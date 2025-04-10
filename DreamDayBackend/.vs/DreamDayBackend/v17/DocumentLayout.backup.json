@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\migrations\\20250410152809_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\migrations\\20250410152809_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,15 +38,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "DreamDayBackend\\appsettings.json",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\appsettings.json",
+              "RelativeToolTip": "DreamDayBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-10T16:22:41.968Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "20250410152809_InitialCreate.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\AuthController.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Program.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DreamDayDbContext.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\DreamDayDbContext.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\DreamDayDbContext.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Guest.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Guest.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\User.cs",
