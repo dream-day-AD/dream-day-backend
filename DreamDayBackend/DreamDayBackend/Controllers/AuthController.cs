@@ -56,7 +56,7 @@ namespace DreamDayBackend.Controllers
             }
 
             var token = GenerateJwtToken(user);
-            return Ok(new { Token = token, Role = user.Role });
+            return Ok(new { Token = token, Role = user.Role, Name = user.Name }); // Added Name
         }
 
         private string GenerateJwtToken(User user)
@@ -65,7 +65,8 @@ namespace DreamDayBackend.Controllers
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim(ClaimTypes.Role, user.Role),
+                new Claim(ClaimTypes.Name, user.Name)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

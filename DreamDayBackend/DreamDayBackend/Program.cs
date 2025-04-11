@@ -9,11 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddDbContext<DreamDayDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
+
 builder.Services.AddIdentity<User, IdentityRole>(options =>
 {
     options.Password.RequireDigit = true;
@@ -49,10 +51,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // Frontend URL
-              .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials();
+        policy.WithOrigins("http://localhost:5173") // Frontend origin
+              .AllowAnyMethod() // GET, POST, PATCH, DELETE
+              .AllowAnyHeader() // Content-Type, Authorization, etc.
+              .AllowCredentials(); // For authenticated requests
     });
 });
 
@@ -64,10 +66,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// Remove UseHttpsRedirection to enforce HTTP
 app.UseStaticFiles();
 app.UseRouting();
-app.UseCors("AllowFrontend"); // Enable CORS
+app.UseCors("AllowFrontend"); // Before Authentication/Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
