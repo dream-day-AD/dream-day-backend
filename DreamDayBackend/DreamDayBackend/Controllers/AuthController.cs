@@ -12,13 +12,13 @@ namespace DreamDayBackend.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager; // Fixed from User to ApplicationUser
+        private readonly SignInManager<ApplicationUser> _signInManager; // Fixed from User to ApplicationUser
         private readonly IConfiguration _configuration;
 
         public AuthController(
-            UserManager<User> userManager,
-            SignInManager<User> signInManager,
+            UserManager<ApplicationUser> userManager, // Fixed from User to ApplicationUser
+            SignInManager<ApplicationUser> signInManager, // Fixed from User to ApplicationUser
             IConfiguration configuration)
         {
             _userManager = userManager;
@@ -29,7 +29,7 @@ namespace DreamDayBackend.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            var user = new User
+            var user = new ApplicationUser // Fixed from User to ApplicationUser
             {
                 UserName = model.Email,
                 Email = model.Email,
@@ -56,20 +56,24 @@ namespace DreamDayBackend.Controllers
             }
 
             var token = GenerateJwtToken(user);
-            return Ok(new { Token = token, Role = user.Role, Name = user.Name }); // Added Name
+            return Ok(new { Token = token, Role = user.Role, Name = user.Name });
         }
 
-        private string GenerateJwtToken(User user)
+        private string GenerateJwtToken(ApplicationUser user)
         {
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, user.Role),
-                new Claim(ClaimTypes.Name, user.Name)
-            };
+        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        new Claim(ClaimTypes.Role, user.Role ?? throw new InvalidOperationException("Role is null")),
+        new Claim(ClaimTypes.Name, user.Name ?? throw new InvalidOperationException("Name is null"))
+    };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(
+                    _configuration["Jwt:Key"] ?? throw new InvalidOperationException("Jwt:Key is missing in configuration")
+                )
+            );
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(

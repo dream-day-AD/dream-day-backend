@@ -2,77 +2,81 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Security.Claims;
 
 namespace DreamDayBackend.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class GuestsController : ControllerBase
+    public class GuestController : ControllerBase
     {
         private readonly DreamDayDbContext _context;
 
-        public GuestsController(DreamDayDbContext context)
+        public GuestController(DreamDayDbContext context)
         {
             _context = context;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetGuests()
+        public async Task<ActionResult<IEnumerable<Guest>>> GetGuests()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userId == null) return Unauthorized();
+            return await _context.Guests.ToListAsync();
+        }
 
-            var guests = await _context.Guests
-                .Where(g => g.UserId == userId)
-                .ToListAsync();
-            return Ok(guests);
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Guest>> GetGuest(Guid id)
+        {
+            var guest = await _context.Guests.FindAsync(id);
+            if (guest == null)
+            {
+                return NotFound();
+            }
+            return guest;
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddGuest([FromBody] Guest guest)
+        public async Task<ActionResult<Guest>> CreateGuest(Guest guest)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userId == null) return Unauthorized();
-
-            guest.UserId = userId;
             _context.Guests.Add(guest);
             await _context.SaveChangesAsync();
-            return Ok(guest);
+            return CreatedAtAction(nameof(GetGuest), new { id = guest.Id }, guest);
         }
 
-        [HttpPatch("{id}")]
-        public async Task<IActionResult> UpdateGuest(int id, [FromBody] Guest updates)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateGuest(Guid id, Guest guest)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userId == null) return Unauthorized();
+            if (id != guest.Id) // Fixed comparison (Guid to Guid)
+            {
+                return BadRequest();
+            }
 
-            var guest = await _context.Guests
-                .FirstOrDefaultAsync(g => g.Id == id && g.UserId == userId);
-            if (guest == null) return NotFound();
+            var existingGuest = await _context.Guests.FindAsync(id);
+            if (existingGuest == null)
+            {
+                return NotFound();
+            }
 
-            if (updates.RSVP != null) guest.RSVP = updates.RSVP;
-            if (updates.MealPreference != null) guest.MealPreference = updates.MealPreference;
-            if (updates.Seating != null) guest.Seating = updates.Seating;
+            existingGuest.Name = guest.Name;
+            existingGuest.RSVP = guest.RSVP; // Now valid
+            existingGuest.MealPreference = guest.MealPreference; // Now valid
+            existingGuest.Seating = guest.Seating; // Now valid
 
             await _context.SaveChangesAsync();
-            return Ok(guest);
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteGuest(int id)
+        public async Task<IActionResult> DeleteGuest(Guid id)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userId == null) return Unauthorized();
-
-            var guest = await _context.Guests
-                .FirstOrDefaultAsync(g => g.Id == id && g.UserId == userId);
-            if (guest == null) return NotFound();
+            var guest = await _context.Guests.FindAsync(id);
+            if (guest == null)
+            {
+                return NotFound();
+            }
 
             _context.Guests.Remove(guest);
             await _context.SaveChangesAsync();
-            return Ok(new { Message = "Guest deleted" });
+            return NoContent();
         }
     }
 }

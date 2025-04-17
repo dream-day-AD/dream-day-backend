@@ -4,6 +4,7 @@ using DreamDayBackend.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DreamDayBackend.Migrations
 {
     [DbContext(typeof(DreamDayDbContext))]
-    partial class DreamDayDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250417192949_AddEventsVenuesBookings")]
+    partial class AddEventsVenuesBookings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
