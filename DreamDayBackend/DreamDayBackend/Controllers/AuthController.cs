@@ -12,13 +12,13 @@ namespace DreamDayBackend.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private readonly UserManager<ApplicationUser> _userManager; // Fixed from User to ApplicationUser
-        private readonly SignInManager<ApplicationUser> _signInManager; // Fixed from User to ApplicationUser
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IConfiguration _configuration;
 
         public AuthController(
-            UserManager<ApplicationUser> userManager, // Fixed from User to ApplicationUser
-            SignInManager<ApplicationUser> signInManager, // Fixed from User to ApplicationUser
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
             IConfiguration configuration)
         {
             _userManager = userManager;
@@ -29,12 +29,12 @@ namespace DreamDayBackend.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
         {
-            var user = new ApplicationUser // Fixed from User to ApplicationUser
+            var user = new ApplicationUser
             {
                 UserName = model.Email,
                 Email = model.Email,
                 Name = model.Name,
-                Role = model.Role // "client", "planner", "admin"
+                Role = "client" // Always set to "client"
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
@@ -63,11 +63,11 @@ namespace DreamDayBackend.Controllers
         {
             var claims = new[]
             {
-        new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-        new Claim(ClaimTypes.Role, user.Role ?? throw new InvalidOperationException("Role is null")),
-        new Claim(ClaimTypes.Name, user.Name ?? throw new InvalidOperationException("Name is null"))
-    };
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.Role, user.Role ?? throw new InvalidOperationException("Role is null")),
+                new Claim(ClaimTypes.Name, user.Name ?? throw new InvalidOperationException("Name is null"))
+            };
 
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(
@@ -92,7 +92,6 @@ namespace DreamDayBackend.Controllers
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
-        public string Role { get; set; } = "client";
     }
 
     public class LoginModel

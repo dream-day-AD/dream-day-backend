@@ -17,6 +17,7 @@ namespace DreamDayBackend.Models
         public string EventName { get; set; } = string.Empty;
 
         [Required]
+        [FutureDate] // Added FutureDate validation
         public DateTime Date { get; set; }
 
         [Required]
@@ -32,5 +33,18 @@ namespace DreamDayBackend.Models
 
         [ForeignKey("VenueId")]
         public Venue Venue { get; set; } // Removed [Required]
+    }
+
+    // Custom validation attribute to ensure the date is in the future
+    public class FutureDateAttribute : ValidationAttribute
+    {
+        public override bool IsValid(object value)
+        {
+            if (value is DateTime date)
+            {
+                return date >= DateTime.Now;
+            }
+            return false;
+        }
     }
 }

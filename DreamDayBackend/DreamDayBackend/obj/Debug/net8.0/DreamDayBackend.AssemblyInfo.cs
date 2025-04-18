@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DreamDayBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f77b2520c513ddd68850f18598b88cf5d9a96755")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d63a381351160b650119546f19d6786f13fd991d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DreamDayBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DreamDayBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

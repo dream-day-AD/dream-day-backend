@@ -123,3 +123,8 @@ C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\o
 C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\obj\Debug\net8.0\DreamDayBackend.genruntimeconfig.cache
 C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\obj\Debug\net8.0\ref\DreamDayBackend.dll
 C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\obj\Debug\net8.0\DreamDayBackend.sourcelink.json
+C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Mac\Home\Documents\GitHub\dream-day-backend\DreamDayBackend\DreamDayBackend\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

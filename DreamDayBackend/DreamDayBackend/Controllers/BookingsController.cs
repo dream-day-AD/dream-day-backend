@@ -117,10 +117,28 @@ namespace DreamDayBackend.Controllers
             }
 
             var evt = await _context.Events
+                .Include(e => e.Venue)
                 .FirstOrDefaultAsync(e => e.EventId == bookingDto.EventId && e.UserId == user.Id);
             if (evt == null)
             {
                 return BadRequest("Event not found or you don't have access to it.");
+            }
+
+            // Check for double-booking
+            var conflictingBooking = await _context.Bookings
+                .Where(b => b.Event.VenueId == evt.VenueId && b.Event.Date == evt.Date)
+                .FirstOrDefaultAsync();
+
+            if (conflictingBooking != null)
+            {
+                return BadRequest("The venue is already booked for this date.");
+            }
+
+            // Get the venue and set TotalCost
+            var venue = await _context.Venues.FindAsync(evt.VenueId);
+            if (venue == null)
+            {
+                return BadRequest("Invalid VenueId: Venue does not exist.");
             }
 
             var booking = new Booking
@@ -128,7 +146,7 @@ namespace DreamDayBackend.Controllers
                 BookingId = Guid.NewGuid(),
                 EventId = evt.EventId,
                 Status = bookingDto.Status,
-                TotalCost = bookingDto.TotalCost
+                TotalCost = venue.Price // Automatically set TotalCost to venue's price
             };
 
             _context.Bookings.Add(booking);

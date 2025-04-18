@@ -379,6 +379,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DreamDayBackend.Controllers.PlannerController",
+    "Method": "GetWeddings",
+    "RelativePath": "api/Planner/weddings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VendorsController",
     "Method": "GetVendors",
     "RelativePath": "api/Vendors",
