@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace DreamDayBackend.Controllers
 {
@@ -17,6 +21,26 @@ namespace DreamDayBackend.Controllers
         public BookingsController(DreamDayDbContext context)
         {
             _context = context;
+        }
+
+        // Helper method to check user role and access
+        private async Task<(bool isAuthorized, ApplicationUser user, string message)> CheckUserAccessAsync()
+        {
+            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (email == null)
+            {
+                return (false, null, "User not authenticated.");
+            }
+
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == email);
+
+            if (user == null)
+            {
+                return (false, null, "User not found in database.");
+            }
+
+            return (true, user, null);
         }
 
         // Map Booking to BookingResponseDto
@@ -52,46 +76,61 @@ namespace DreamDayBackend.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<BookingResponseDto>>> GetBookings()
         {
-            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (email == null)
+            var (isAuthorized, user, message) = await CheckUserAccessAsync();
+            if (!isAuthorized)
             {
-                return Unauthorized("User not authenticated.");
+                return Unauthorized(message);
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (user == null)
+            IQueryable<Booking> query;
+
+            if (user.Role == "Client")
             {
-                return Unauthorized("User not found in database.");
+                // For clients, first filter by user ID then include related data
+                query = _context.Bookings
+                    .Where(b => b.Event.UserId == user.Id)
+                    .Include(b => b.Event)
+                    .ThenInclude(e => e.Venue);
+            }
+            else
+            {
+                // For admin and planner, get all bookings with related data
+                query = _context.Bookings
+                    .Include(b => b.Event)
+                    .ThenInclude(e => e.Venue);
             }
 
-            var bookings = await _context.Bookings
-                .Include(b => b.Event)
-                    .ThenInclude(e => e.Venue)
-                .Where(b => b.Event.UserId == user.Id)
-                .ToListAsync();
-
+            var bookings = await query.ToListAsync();
             return Ok(bookings.Select(MapToResponseDto));
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<BookingResponseDto>> GetBooking(Guid id)
         {
-            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (email == null)
+            var (isAuthorized, user, message) = await CheckUserAccessAsync();
+            if (!isAuthorized)
             {
-                return Unauthorized("User not authenticated.");
+                return Unauthorized(message);
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (user == null)
-            {
-                return Unauthorized("User not found in database.");
-            }
+            Booking booking;
 
-            var booking = await _context.Bookings
-                .Include(b => b.Event)
+            if (user.Role == "Client")
+            {
+                // For clients, filter by booking ID and user ID
+                booking = await _context.Bookings
+                    .Include(b => b.Event)
                     .ThenInclude(e => e.Venue)
-                .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
+                    .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
+            }
+            else
+            {
+                // For admin and planner, just filter by booking ID
+                booking = await _context.Bookings
+                    .Include(b => b.Event)
+                    .ThenInclude(e => e.Venue)
+                    .FirstOrDefaultAsync(b => b.BookingId == id);
+            }
 
             if (booking == null)
             {
@@ -104,21 +143,29 @@ namespace DreamDayBackend.Controllers
         [HttpPost]
         public async Task<ActionResult<BookingResponseDto>> CreateBooking(BookingDto bookingDto)
         {
-            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (email == null)
+            var (isAuthorized, user, message) = await CheckUserAccessAsync();
+            if (!isAuthorized)
             {
-                return Unauthorized("User not authenticated.");
+                return Unauthorized(message);
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (user == null)
+            Event evt;
+
+            if (user.Role == "Client")
             {
-                return Unauthorized("User not found in database.");
+                // Clients can only book their own events
+                evt = await _context.Events
+                    .Include(e => e.Venue)
+                    .FirstOrDefaultAsync(e => e.EventId == bookingDto.EventId && e.UserId == user.Id);
+            }
+            else
+            {
+                // Admins and Planners can book any event
+                evt = await _context.Events
+                    .Include(e => e.Venue)
+                    .FirstOrDefaultAsync(e => e.EventId == bookingDto.EventId);
             }
 
-            var evt = await _context.Events
-                .Include(e => e.Venue)
-                .FirstOrDefaultAsync(e => e.EventId == bookingDto.EventId && e.UserId == user.Id);
             if (evt == null)
             {
                 return BadRequest("Event not found or you don't have access to it.");
@@ -126,15 +173,15 @@ namespace DreamDayBackend.Controllers
 
             // Check for double-booking
             var conflictingBooking = await _context.Bookings
-                .Where(b => b.Event.VenueId == evt.VenueId && b.Event.Date == evt.Date)
-                .FirstOrDefaultAsync();
+                .Include(b => b.Event)
+                .AnyAsync(b => b.Event.VenueId == evt.VenueId && b.Event.Date == evt.Date);
 
-            if (conflictingBooking != null)
+            if (conflictingBooking)
             {
                 return BadRequest("The venue is already booked for this date.");
             }
 
-            // Get the venue and set TotalCost
+            // Get the venue for validation
             var venue = await _context.Venues.FindAsync(evt.VenueId);
             if (venue == null)
             {
@@ -146,7 +193,7 @@ namespace DreamDayBackend.Controllers
                 BookingId = Guid.NewGuid(),
                 EventId = evt.EventId,
                 Status = bookingDto.Status,
-                TotalCost = venue.Price // Automatically set TotalCost to venue's price
+                TotalCost = bookingDto.TotalCost
             };
 
             _context.Bookings.Add(booking);
@@ -155,7 +202,7 @@ namespace DreamDayBackend.Controllers
             // Fetch the booking again with related data for the response
             var createdBooking = await _context.Bookings
                 .Include(b => b.Event)
-                    .ThenInclude(e => e.Venue)
+                .ThenInclude(e => e.Venue)
                 .FirstOrDefaultAsync(b => b.BookingId == booking.BookingId);
 
             return CreatedAtAction(nameof(GetBooking), new { id = booking.BookingId }, MapToResponseDto(createdBooking));
@@ -164,56 +211,88 @@ namespace DreamDayBackend.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBooking(Guid id, BookingDto bookingDto)
         {
-            if (id != bookingDto.BookingId)
+            // Allow updating without specifying BookingId in the DTO
+            if (bookingDto.BookingId != Guid.Empty && id != bookingDto.BookingId)
             {
                 return BadRequest("Booking ID mismatch.");
             }
 
-            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (email == null)
+            var (isAuthorized, user, message) = await CheckUserAccessAsync();
+            if (!isAuthorized)
             {
-                return Unauthorized("User not authenticated.");
+                return Unauthorized(message);
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (user == null)
+            Booking existingBooking;
+
+            if (user.Role == "Client")
             {
-                return Unauthorized("User not found in database.");
+                // Clients can only update their own bookings
+                existingBooking = await _context.Bookings
+                    .Include(b => b.Event)
+                    .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
+            }
+            else
+            {
+                // Admins and Planners can update any booking
+                existingBooking = await _context.Bookings
+                    .Include(b => b.Event)
+                    .FirstOrDefaultAsync(b => b.BookingId == id);
             }
 
-            var existingBooking = await _context.Bookings
-                .Include(b => b.Event)
-                .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
             if (existingBooking == null)
             {
                 return NotFound("Booking not found or you don't have access to it.");
             }
 
+            // Update booking properties
             existingBooking.Status = bookingDto.Status;
             existingBooking.TotalCost = bookingDto.TotalCost;
 
-            await _context.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!BookingExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteBooking(Guid id)
         {
-            var email = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            if (email == null)
+            var (isAuthorized, user, message) = await CheckUserAccessAsync();
+            if (!isAuthorized)
             {
-                return Unauthorized("User not authenticated.");
+                return Unauthorized(message);
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
-            if (user == null)
+            Booking booking;
+
+            if (user.Role == "Client")
             {
-                return Unauthorized("User not found in database.");
+                // Clients can only delete their own bookings
+                booking = await _context.Bookings
+                    .Include(b => b.Event)
+                    .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
+            }
+            else
+            {
+                // Admins and Planners can delete any booking
+                booking = await _context.Bookings
+                    .Include(b => b.Event)
+                    .FirstOrDefaultAsync(b => b.BookingId == id);
             }
 
-            var booking = await _context.Bookings
-                .Include(b => b.Event)
-                .FirstOrDefaultAsync(b => b.BookingId == id && b.Event.UserId == user.Id);
             if (booking == null)
             {
                 return NotFound("Booking not found or you don't have access to it.");
@@ -222,6 +301,11 @@ namespace DreamDayBackend.Controllers
             _context.Bookings.Remove(booking);
             await _context.SaveChangesAsync();
             return NoContent();
+        }
+
+        private bool BookingExists(Guid id)
+        {
+            return _context.Bookings.Any(e => e.BookingId == id);
         }
     }
 }

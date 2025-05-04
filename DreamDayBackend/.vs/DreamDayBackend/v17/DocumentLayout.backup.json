@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\utilities\\seedplanneruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\utilities\\seedplanneruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,64 +95,8 @@
       "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dreamdaybackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\bookingresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\eventresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\vendorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +134,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Task.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Task.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Vendor.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Vendor.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Vendor.cs",
@@ -165,154 +165,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlannerController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\PlannerController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\PlannerController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\PlannerController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\PlannerController.cs",
-              "ViewState": "AgIAACoAAACAZmZmZmYcwEMAAAABAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Booking.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Booking.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T08:35:01.943Z",
+              "WhenOpened": "2025-04-17T14:36:21.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Program.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
-              "RelativeToolTip": "DreamDayBackend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:25:53.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeedAdminUser.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedAdminUser.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedAdminUser.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedAdminUser.cs",
-              "RelativeToolTip": "DreamDayBackend\\Utilities\\SeedAdminUser.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T06:47:08.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedPlannerUser.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
-              "RelativeToolTip": "DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:27:42.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Hubs\\ChatHub.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Hubs\\ChatHub.cs",
-              "RelativeToolTip": "DreamDayBackend\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T08:42:33.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Wedding.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Wedding.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Wedding.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Wedding.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\Wedding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T11:07:19.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookingResponseDto.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingResponseDto.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\BookingResponseDto.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingResponseDto.cs",
-              "RelativeToolTip": "DreamDayBackend\\Dtos\\BookingResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:41:59.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DreamDayBackend.csproj",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\DreamDayBackend.csproj",
-              "RelativeDocumentMoniker": "DreamDayBackend\\DreamDayBackend.csproj",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\DreamDayBackend.csproj",
-              "RelativeToolTip": "DreamDayBackend\\DreamDayBackend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-10T16:33:23.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:26:43.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Event.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Event.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\Event.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwDEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:34:54.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookingsController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\BookingsController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\BookingsController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\BookingsController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\BookingsController.cs",
-              "ViewState": "AgIAANAAAABAyszMzMwXwOIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:36:56.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\User.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:23:19.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "BookingDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\BookingDto.cs",
@@ -320,23 +185,141 @@
               "RelativeToolTip": "DreamDayBackend\\Dtos\\BookingDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:41:31.886Z"
+              "WhenOpened": "2025-04-17T20:41:31.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
+              "Title": "BookingResponseDto.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingResponseDto.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\BookingResponseDto.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingResponseDto.cs",
+              "RelativeToolTip": "DreamDayBackend\\Dtos\\BookingResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:41:59.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAswDcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:36:56.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VenuesController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VenuesController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\VenuesController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VenuesController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\VenuesController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:36:24.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Venue.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Venue.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\Venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:35:39.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAA4AAAAA2P////8NwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:35:32.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Event.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Event.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\Event.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:34:54.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:26:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\GuestController.cs",
+              "ViewState": "AgIAABAAAADAzMzMzMwkwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T19:48:35.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Guest.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\Guest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:24:33.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "EventResponseDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\EventResponseDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\EventResponseDto.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\EventResponseDto.cs",
               "RelativeToolTip": "DreamDayBackend\\Dtos\\EventResponseDto.cs",
-              "ViewState": "AgIAAA8AAADA/f///38UwBoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T20:31:31.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "EventDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\EventDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\EventDto.cs",
@@ -348,87 +331,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAMcAAACAmZmZmRkkwM8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:35:32.094Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\DashboardController.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "DreamDayBackend\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T19:44:30.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VenuesController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VenuesController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\VenuesController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VenuesController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\VenuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "SeedPlannerUser.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
+              "RelativeToolTip": "DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:36:24.569Z"
+              "WhenOpened": "2025-04-18T07:27:42.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Guest.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Guest.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\Guest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "SeedAdminUser.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedAdminUser.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedAdminUser.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedAdminUser.cs",
+              "RelativeToolTip": "DreamDayBackend\\Utilities\\SeedAdminUser.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:24:33.359Z"
+              "WhenOpened": "2025-04-18T06:47:08.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Venue.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Venue.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Venue.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Venue.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\Venue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Program.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
+              "RelativeToolTip": "DreamDayBackend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:35:39.65Z"
+              "WhenOpened": "2025-04-10T15:25:53.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlannerController.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\PlannerController.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\PlannerController.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\PlannerController.cs",
+              "RelativeToolTip": "DreamDayBackend\\Controllers\\PlannerController.cs",
+              "ViewState": "AgIAACoAAACAZmZmZmYcwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:35:01.943Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Booking.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Booking.cs",
-              "RelativeToolTip": "DreamDayBackend\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "DreamDayBackend\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:36:21.747Z"
+              "WhenOpened": "2025-04-18T08:42:33.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Wedding.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Wedding.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Wedding.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Wedding.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\Wedding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T11:07:19.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DreamDayBackend.csproj",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\DreamDayBackend.csproj",
+              "RelativeDocumentMoniker": "DreamDayBackend\\DreamDayBackend.csproj",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\DreamDayBackend.csproj",
+              "RelativeToolTip": "DreamDayBackend\\DreamDayBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-10T16:33:23.324Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "DreamDayBackend\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswFEAAAABAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DreamDayBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
+              "RelativeToolTip": "DreamDayBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T19:48:35.919Z"
+              "WhenOpened": "2025-04-10T15:23:19.272Z"
             },
             {
               "$type": "Document",

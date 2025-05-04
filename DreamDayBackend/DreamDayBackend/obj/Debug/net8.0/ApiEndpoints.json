@@ -270,16 +270,36 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DreamDayBackend.Controllers.GuestController",
+    "ContainingType": "DreamDayBackend.Controllers.EventsController",
+    "Method": "GetDebugInfo",
+    "RelativePath": "api/Events/debug-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DreamDayBackend.Controllers.EventsController",
+    "Method": "GetRawEvents",
+    "RelativePath": "api/Events/raw-test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "GetGuests",
-    "RelativePath": "api/Guest",
+    "RelativePath": "api/Guests",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[DreamDayBackend.Models.Guest, DreamDayBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Guest, DreamDayBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -290,22 +310,22 @@
     ]
   },
   {
-    "ContainingType": "DreamDayBackend.Controllers.GuestController",
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "CreateGuest",
-    "RelativePath": "api/Guest",
+    "RelativePath": "api/Guests",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "guest",
-        "Type": "DreamDayBackend.Models.Guest",
+        "Name": "guestDto",
+        "Type": "DreamDayBackend.Dtos.GuestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "DreamDayBackend.Models.Guest",
+        "Type": "Guest",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -316,9 +336,9 @@
     ]
   },
   {
-    "ContainingType": "DreamDayBackend.Controllers.GuestController",
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "GetGuest",
-    "RelativePath": "api/Guest/{id}",
+    "RelativePath": "api/Guests/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -331,7 +351,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "DreamDayBackend.Models.Guest",
+        "Type": "Guest",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -342,9 +362,9 @@
     ]
   },
   {
-    "ContainingType": "DreamDayBackend.Controllers.GuestController",
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "UpdateGuest",
-    "RelativePath": "api/Guest/{id}",
+    "RelativePath": "api/Guests/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -355,17 +375,17 @@
         "IsRequired": true
       },
       {
-        "Name": "guest",
-        "Type": "DreamDayBackend.Models.Guest",
+        "Name": "guestDto",
+        "Type": "DreamDayBackend.Dtos.GuestDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DreamDayBackend.Controllers.GuestController",
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "DeleteGuest",
-    "RelativePath": "api/Guest/{id}",
+    "RelativePath": "api/Guests/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

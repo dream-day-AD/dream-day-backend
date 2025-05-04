@@ -1,28 +1,32 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using DreamDayBackend.Models;
 using System.ComponentModel.DataAnnotations.Schema;
-using DreamDayBackend.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace DreamDayBackend.Models
+public class Guest
 {
-    public class Guest
-    {
-        [Key]
-        public Guid Id { get; set; }
+    [Key]
+    public Guid Id { get; set; }
 
-        [Required]
-        public string Name { get; set; } = string.Empty;
+    [Required]
+    public string Name { get; set; } = string.Empty;
 
-        [Required]
-        public string Status { get; set; } = string.Empty;
+    [Required]
+    [EmailAddress]
+    public string Email { get; set; } = string.Empty;
 
-        [Required]
-        public string UserId { get; set; } = string.Empty;
+    [Required]
+    [StringLength(20)]
+    public string RSVP { get; set; } = "Pending";
 
-        public string RSVP { get; set; } = string.Empty;
-        public string MealPreference { get; set; } = string.Empty;
-        public string Seating { get; set; } = string.Empty;
+    [StringLength(20)]
+    public string MealPreference { get; set; } = "None";
 
-        [ForeignKey("UserId")]
-        public ApplicationUser User { get; set; } // EF will handle initialization
-    }
+    [StringLength(50)]
+    public string Seating { get; set; } = string.Empty;
+
+    [Required]
+    public string UserId { get; set; }
+
+    [ForeignKey("UserId")]
+    public ApplicationUser User { get; set; }
 }
