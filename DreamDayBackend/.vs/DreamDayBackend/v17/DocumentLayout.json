@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\migrations\\20250410152809_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\migrations\\20250410152809_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|solutionrelative:dreamdaybackend\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{093ABFF8-4013-4158-A12E-B4F2BC09C794}|DreamDayBackend\\DreamDayBackend.csproj|c:\\mac\\home\\documents\\github\\dream-day-backend\\dreamdaybackend\\dreamdaybackend\\dtos\\guestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,11 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Task.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Task.cs",
@@ -151,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Vendor.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Vendor.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Vendor.cs",
@@ -168,13 +164,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GuestController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\GuestController.cs",
               "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\GuestController.cs",
               "RelativeToolTip": "DreamDayBackend\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwBYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAswCQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T19:48:35.919Z",
               "EditorCaption": ""
@@ -182,19 +178,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250410152809_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
-              "ToolTip": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
-              "RelativeToolTip": "DreamDayBackend\\Migrations\\20250410152809_InitialCreate.cs",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAowDEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T15:28:12.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Guest.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Guest.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Guest.cs",
@@ -207,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GuestDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\GuestDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\GuestDto.cs",
@@ -220,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\BookingsController.cs",
@@ -233,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "BookingResponseDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingResponseDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\BookingResponseDto.cs",
@@ -246,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BookingDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\BookingDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\BookingDto.cs",
@@ -259,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Booking.cs",
@@ -272,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "VenuesController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VenuesController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\VenuesController.cs",
@@ -285,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Venue.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Venue.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Venue.cs",
@@ -298,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\EventsController.cs",
@@ -311,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Event.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Event.cs",
@@ -324,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\AuthController.cs",
@@ -337,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "EventResponseDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\EventResponseDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\EventResponseDto.cs",
@@ -349,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "EventDto.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Dtos\\EventDto.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Dtos\\EventDto.cs",
@@ -361,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\DashboardController.cs",
@@ -373,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "SeedPlannerUser.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedPlannerUser.cs",
@@ -385,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "SeedAdminUser.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Utilities\\SeedAdminUser.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Utilities\\SeedAdminUser.cs",
@@ -397,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Program.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Program.cs",
@@ -409,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "PlannerController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\PlannerController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\PlannerController.cs",
@@ -421,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Hubs\\ChatHub.cs",
@@ -433,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "Wedding.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\Wedding.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\Wedding.cs",
@@ -445,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "DreamDayBackend.csproj",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\DreamDayBackend.csproj",
               "RelativeDocumentMoniker": "DreamDayBackend\\DreamDayBackend.csproj",
@@ -457,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\User.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\User.cs",
@@ -469,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "VendorsController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\VendorsController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\VendorsController.cs",
@@ -481,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "DreamDayDbContext.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Models\\DreamDayDbContext.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Models\\DreamDayDbContext.cs",
@@ -493,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "ChecklistController.cs",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\Controllers\\ChecklistController.cs",
               "RelativeDocumentMoniker": "DreamDayBackend\\Controllers\\ChecklistController.cs",
@@ -505,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\appsettings.json",
               "RelativeDocumentMoniker": "DreamDayBackend\\appsettings.json",
@@ -517,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Mac\\Home\\Documents\\GitHub\\dream-day-backend\\DreamDayBackend\\DreamDayBackend\\.gitignore",
               "RelativeDocumentMoniker": "DreamDayBackend\\.gitignore",

@@ -384,6 +384,27 @@
   },
   {
     "ContainingType": "DreamDayBackend.Controllers.GuestsController",
+    "Method": "PatchGuest",
+    "RelativePath": "api/Guests/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "guestDto",
+        "Type": "DreamDayBackend.Dtos.GuestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DreamDayBackend.Controllers.GuestsController",
     "Method": "DeleteGuest",
     "RelativePath": "api/Guests/{id}",
     "HttpMethod": "DELETE",
